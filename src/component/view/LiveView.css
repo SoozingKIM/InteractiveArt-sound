@@ -1,0 +1,7 @@
+.user-screen{
+    height: 15vh;
+    width: 30vh;
+    margin: 3px 3px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 15px;
+}

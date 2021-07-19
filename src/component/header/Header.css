@@ -1,0 +1,52 @@
+.header{
+    height: 6vh;
+    width: 100%;
+    /* background-color: grey; */
+    background-color: #1b1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    border:none;
+}
+.left{
+    padding: 5px 15px;
+    background-color: rgba(19, 19, 19, 0.712);
+}
+.right{
+    background-color: rgb(43, 43, 43);
+}
+
+.header-container-left{
+    display: flex;
+    border: none;
+    margin-left: 5px;
+}
+.icon-info{
+    color: white;
+}
+
+
+.icon-security{
+    color:rgb(47, 223, 91);
+}
+
+.header-container-right{
+    display: flex;
+    margin-right: 5px;
+}
+
+.icon-view{
+    transform: rotate(-90deg);
+    margin: 8px 3px;
+}
+
+.icon-screen{
+    margin: 5px 3px;
+}
