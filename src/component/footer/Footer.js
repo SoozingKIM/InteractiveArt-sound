@@ -10,20 +10,32 @@ export default function Footer(){
             <div className="container-left">
                 <button className="footer-icon-button"
                         onClick={()=>console.log('Mute clicked!')}>
+                    <div>
                     <FaMicrophone 
-                        size="3.5em"
-                        style={{marginTop:5, marginBottom:-2}}
+                        size="3.3em"
+                        style={{marginTop:5, marginBottom:-2, marginLeft:20}}
                     />
+                    <IoChevronUp 
+                        size="1.5em"
+                        style={{marginLeft:5, marginBottom:10}}
+                    />
+                    </div>    
                     <p className="icon-name">
                         Mute  
                     </p>
                 </button>
                 <button className="footer-icon-button"
                         onClick={()=>console.log('Start Video clicked!')}>
+                    <div>
                     <IoVideocam
                         size="4em"
-                        style={{marginBottom:-7}}
+                        style={{marginBottom:-7, marginLeft:10}}
                     />
+                    <IoChevronUp 
+                        size="1.5em"
+                        style={{marginLeft:8, marginBottom:8}}
+                    />
+                    </div>
                     <p className="icon-name">
                         Start Video 
                     </p>

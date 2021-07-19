@@ -9,9 +9,9 @@
 
 .container-left{
     height: 8vh;
-    width: 17vh;
+    width: 20vh;
     /* background-color: yellow; */
-    margin-left: 8vh;
+    margin-left: 7vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
