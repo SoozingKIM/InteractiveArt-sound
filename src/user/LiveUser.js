@@ -1,20 +1,34 @@
-import LiveView from "../component/view/LiveView";
+import View from "../component/view/View";
+import './LiveUser.css'
 
-export default function(){
+export default function LiveUser(){
     return(
         <>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
-        <LiveView/>
+            <div className="top">
+                <View/>
+                <View/>
+                <View/>
+                <View/>
+            </div>
+            <div className="middle">
+                <div className="side">
+                    <View/>
+                    <View/>
+                </div>
+                <div className="user-view">
+                    <View/>
+                </div>
+                <div className="side">
+                    <View/>
+                    <View/>
+                </div>
+            </div>
+            <div className="top">
+                <View/>
+                <View/>
+                <View/>
+                <View/>
+            </div>
         </>
     )
 }

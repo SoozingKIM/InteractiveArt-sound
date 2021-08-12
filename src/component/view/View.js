@@ -1,6 +1,6 @@
-import './LiveView.css';
+import './View.css';
 
-export default function LiveView(){
+export default function View(){
     return(
         <div className="user-screen">
             

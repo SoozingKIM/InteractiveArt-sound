@@ -1,0 +1,21 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.user-view{
+    display: flex;
+    width: 50%;
+}

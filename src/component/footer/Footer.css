@@ -1,34 +1,36 @@
 .footer{
-    height: 9vh;
-    background-color: rgb(36, 36, 36);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to top, rgb(32, 32, 32), rgb(44, 44, 44));
+    height: 75px;
+    flex-shrink: 1;
+    background-color: rgb(22, 22, 22);
 }
 
 .container-left{
-    height: 8vh;
-    width: 20vh;
-    /* background-color: yellow; */
-    margin-left: 7vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 77px;
+    width: 21vh;
+    /* background-color: yellow; */
+    margin-left: 5vh;
+    overflow: hidden; 
 }
 .container-center{
-    height: 8vh;
-    width: 40vh;
+    height: 77px;
+    width: 65vh;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden; 
 }
 
 #leave{
-    height: 5vh;
-    width: 13vh;
-    background-color: rgba(255, 0, 0, 0.904);
+    height: 4vh;
+    width: 10vh;
+    background-color: rgb(138, 6, 6);
     border-radius: 10px;
     margin-right: 4vh;
     box-shadow:  0px 0px 20px 0px rgb(24, 24, 24);
@@ -39,22 +41,53 @@
     font-size:17px;
 }
 
-.footer-icon-button{
-    line-height: 0px;
+.footer-button{
+    height: 80%;
+    width: 100px;
+    /* line-height: 0px; */
     color: rgb(218, 213, 213);
     background: none;
     border: none;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
-.icon-participants{
+.center{
+    justify-content: center;
+}
+
+.footer-button:hover{
+    background: rgba(109, 108, 108, 0.226);
+}
+.icon-set{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 3px;
+}
+.more{
+    background: none;
+    border: none;
+    padding: 3px;
+    color: rgb(218, 213, 213);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.more:hover{
+    background: rgba(156, 156, 156, 0.575);
+}
+
+.participants{
     transform: scaleX(-1);
 }
-.icon-screenshare{
+.screenshare{
     color:rgb(47, 223, 91);
 }
 .icon-name{
-    font-size: 14px;
+    font-size: 13px;
+    font-weight:500;
 }

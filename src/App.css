@@ -1,15 +1,14 @@
 .main {
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; 
 }
 
 .body {
-  background-color:  #1b1a1a;
-  height: 85vh;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex:1;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: rgb(19, 18, 18);
+  height: 88vh;
+  padding: 2px;
 }
