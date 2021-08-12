@@ -1,14 +1,12 @@
 .main {
-  height: 100vh;
+  height: 100%;
   overflow: hidden; 
 }
 
 .body {
   display: flex;
   flex:1;
-  flex-wrap: nowrap;
   flex-direction: column;
   background-color: rgb(19, 18, 18);
-  height: 88vh;
-  padding: 2px;
+  height: 91vh;
 }

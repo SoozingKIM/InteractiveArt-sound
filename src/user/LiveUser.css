@@ -1,7 +1,7 @@
 .top{
     display: flex;
     flex-direction: row;
-    height: 25%;
+    height: 25vh;
 }
 
 .side{
@@ -13,9 +13,9 @@
 .middle{
     display: flex;
     flex-direction: row;
-    height: 50%;
+    height: 50vh;
 }
 .user-view{
     display: flex;
-    width: 50%;
+    width: 50vh;
 }

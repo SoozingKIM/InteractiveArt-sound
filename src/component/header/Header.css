@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
-    /* width: 100%; */
+    height: 36px;
     background-color: rgb(19, 18, 18);
 }
 .header-button{
@@ -15,7 +14,7 @@
     border:none;
 }
 .left{
-    padding: 5px 15px;
+    padding: 5px 10px;
     background-color: rgba(19, 19, 19, 0.712);
 }
 .right{
@@ -25,7 +24,7 @@
 .header-container-left{
     display: flex;
     border: none;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .icon-info{
     color: white;
@@ -43,7 +42,7 @@
 
 .icon-view{
     transform: rotate(-90deg);
-    margin: 8px 3px;
+    margin: 6px 3px;
 }
 
 .icon-screen{
