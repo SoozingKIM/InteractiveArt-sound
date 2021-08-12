@@ -4,6 +4,7 @@ import { MdScreenShare, MdSecurity } from 'react-icons/md'
 import { BiRadioCircleMarked, BiHeadphone } from 'react-icons/bi'
 import { AiFillSmile } from "react-icons/ai";
 import TeamInfoButton from '../button/TeamInfoButton';
+import CharacterButton from '../button/CharacterButton';
 
 export default function Footer(){
     return(
@@ -13,9 +14,7 @@ export default function Footer(){
                         onClick={()=>console.log('Mute clicked!')}>
                     <div className="icon-set" style={{marginRight:-5}}>
                         <BiHeadphone size="2.4em"/>
-                        <p className="icon-name">
-                            오디오 연결
-                        </p>
+                        오디오 연결
                     </div>    
                     <button className="more">
                         <IoChevronUp />
@@ -25,33 +24,25 @@ export default function Footer(){
                         onClick={()=>console.log('Start Video clicked!')}>
                     <div className="icon-set" style={{marginRight:-5}}>
                         <IoVideocam size="2.4em"/>
-                        <p className="icon-name">
-                            비디오 시작
-                        </p>
+                        비디오 시작
                     </div>
-                    <button className="more">
-                        <IoChevronUp />
-                    </button>
+                    <CharacterButton/>
                 </button>
             </div>
             <div className="container-center">
                 <button className="footer-button"
                         onClick={()=>console.log('Participants clicked!')}>
-                    <div className="icon-set" style={{marginRight:8}}>
-                        <MdSecurity size="2.1em" className="transform"/>
-                        <p className="icon-name">
-                            보안
-                        </p>
+                    <div className="icon-set" style={{marginRight:8}} >
+                        <MdSecurity size="1.8em" className="transform" style={{marginBottom:3}}/>
+                        보안
                     </div>
                     <TeamInfoButton/>
                 </button>
                 <button className="footer-button"
                         onClick={()=>console.log('Participants clicked!')}>
                     <div className="icon-set" style={{marginRight:5}}>
-                        <IoPeopleSharp size="2.3em" className="transform"/>
-                        <p className="icon-name">
-                            참가자
-                        </p>
+                        <IoPeopleSharp size="2.4em" className="transform"/>
+                        참가자
                     </div>
                     <button className="more">
                         <IoChevronUp />
@@ -60,21 +51,15 @@ export default function Footer(){
                 <button className="footer-button center"
                         onClick={()=>console.log('Chat clicked!')}>
                     <div className="icon-set">    
-                        <IoChatbox size="2.1em"/>
-                        <p className="icon-name">
-                            채팅
-                        </p>
+                        <IoChatbox size="2.1em" style={{marginBottom:3}}/>
+                        채팅
                     </div>
                 </button>
-                <button className="footer-button" 
+                <button className="footer-button screenshare" 
                         onClick={()=>console.log('Screen Share clicked!')}>
-                    <div className="icon-set" style={{marginRight:-1}}>
-                        <MdScreenShare size="2.4em"
-                            className="screenshare"
-                        />   
-                        <p className="icon-name" style={{color:"rgb(47, 223, 91)"}}>
-                            화면 공유
-                        </p>
+                    <div className="icon-set screenshare" style={{marginRight:-1}}>
+                        <MdScreenShare size="2.4em" style={{marginBottom:1}}/>   
+                        화면 공유
                     </div>
                     <button className="more">
                             <IoChevronUp />
@@ -84,21 +69,17 @@ export default function Footer(){
                         onClick={()=>console.log('Record clicked!')}>
                     <div className="icon-set" >
                         <BiRadioCircleMarked
-                            size="3.3em"
-                            style={{marginTop:-7, marginBottom:-5}}
+                            size="3.2em"
+                            style={{marginTop:-5, marginBottom:-3}}
                         />
-                        <p className="icon-name">
-                            기록
-                        </p>
+                        기록
                     </div>
                 </button>
                 <button className="footer-button center"
                         onClick={()=>console.log('Reaction clicked!')}>
                     <div className="icon-set">
-                        <AiFillSmile size="2.2em"/>
-                        <p className="icon-name" >
-                            반응
-                        </p>
+                        <AiFillSmile size="2em" style={{marginBottom:5}}/>
+                        반응
                     </div>
                 </button>
             </div>

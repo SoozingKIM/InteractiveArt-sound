@@ -1,0 +1,116 @@
+.setting-container{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 750px ;
+    background-color: white;
+}
+
+.setting-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    flex:1;
+    border-width: 2px;
+    border-right: solid;
+    border-color: rgb(235, 234, 234);
+    /* background-color: rgb(187, 101, 101); */
+    padding-bottom: 50px;
+
+}
+
+.setting-preview{
+    height: 500px;
+    flex:2;
+    background-color: rgb(53, 136, 125);
+    padding-bottom: 50px;
+}
+
+.setting-part1{
+    height: 180px;
+    width: 180px ;
+    margin-top:40px;
+    background-color: rgb(216, 216, 216);
+   
+}
+
+.setting-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 90px;
+    width: 160px ;
+    margin-top:10px;
+    /* background-color: violet; */
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+.color{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting-part3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    width: 180px ;
+    margin-top:40px;
+    /* background-color: violet; */
+}
+
+.retry{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    /* background-color: blue; */
+}
+
+.back{
+    height: 25px;
+    width: 60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    color: rgb(92, 92, 92);
+    font-size: 17px;
+    border-right: solid;
+    border-width: 0.5px;
+    border-color: rgb(122, 121, 121);
+}
+
+.init{
+    height: 25px;
+    width: 120px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(112, 111, 111);
+    /* background-color: yellow; */
+}
+
+.store{
+    width: 170px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 0px 5px 2px rgb(233, 233, 233);
+    color: rgb(47, 112, 253);
+}
+
+.store:hover{
+    background-color: rgb(248, 248, 248);
+}

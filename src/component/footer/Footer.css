@@ -9,7 +9,6 @@
 .container-left{
     display: flex;
     align-items: center;
-    /* justify-content: ; */
     height: 55px;
     width: 22vh;
     /* background-color: yellow; */
@@ -54,6 +53,8 @@
     border: none;
     border-radius: 10px;
     padding: 0;
+    font-size: 12px;
+    font-weight:600;
 }
 
 .footer-button-left{
@@ -67,6 +68,8 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-end;
+    font-size: 12px;
+    font-weight:600;
 }
 
 .center{
@@ -81,7 +84,7 @@
 }
 .icon-set{
     display: flex;
-    align-items: center;
+    align-items:center;
     height: 100%;
     flex-direction: column;
     margin: 0px 3px;
@@ -106,11 +109,4 @@
 }
 .screenshare{
     color:rgb(47, 223, 91);
-}
-.icon-name{
-    padding: 0;
-    margin: 4px 0 0 0;
-    font-size: 12px;
-    font-weight:500;
-    color: rgb(173, 173, 173);
 }

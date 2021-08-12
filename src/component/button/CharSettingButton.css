@@ -1,0 +1,22 @@
+.setting-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+    width: 740px;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgb(235, 234, 234);
+    padding:0 5px;
+    font-weight: bold;
+    font-size: 10;
+}
+
+.char{
+    background-color: rgb(47, 112, 253);
+    margin-bottom: 10px;
+    color: white;
+}

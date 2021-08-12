@@ -1,11 +1,8 @@
-import First from './component/리액트초기/First';
+import './App.css';
 import Footer from './component/footer/Footer';
-import LiveView from './component/view/View';
 import Header from './component/header/Header';
 import LiveUser from './user/LiveUser';
-import TeamInfo from './component/teamInfo/TeamInfo';
-import './App.css'
-import TeamInfoButton from './component/button/TeamInfoButton';
+import CharSettingButton from './component/button/CharSettingButton';
 
 function App() {
   return (
@@ -13,6 +10,7 @@ function App() {
       <Header/>
       <div className="body">
         <LiveUser/>
+        {/* <CharSettingButton/> */}
       </div>
       <Footer/>
     </div>
