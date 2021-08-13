@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './component/footer/Footer';
 import Header from './component/header/Header';
 import LiveUser from './user/LiveUser';
-import CharSettingButton from './component/button/CharSettingButton';
+import CharSettingButton from './component/setting_video/character/CharSettingButton';
 
 function App() {
   return (

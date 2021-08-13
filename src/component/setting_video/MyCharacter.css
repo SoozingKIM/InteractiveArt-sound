@@ -44,10 +44,6 @@
     font-size: 14px;
 }
 
-.background{
-    background-color: rgb(243, 243, 243);
-    color: rgb(47, 112, 253);
-}
 .new-bottom{
     display: flex;
     align-items: center;

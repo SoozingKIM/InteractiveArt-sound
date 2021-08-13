@@ -3,8 +3,8 @@ import { IoVideocam, IoPeopleSharp,IoChatbox, IoChevronUp } from 'react-icons/io
 import { MdScreenShare, MdSecurity } from 'react-icons/md'
 import { BiRadioCircleMarked, BiHeadphone } from 'react-icons/bi'
 import { AiFillSmile } from "react-icons/ai";
-import TeamInfoButton from '../button/TeamInfoButton';
-import CharacterButton from '../button/CharacterButton';
+import TeamInfoButton from '../teamInfo/TeamInfoButton';
+import CharacterButton from '../setting_video/MyCharacterButton';
 
 export default function Footer(){
     return(

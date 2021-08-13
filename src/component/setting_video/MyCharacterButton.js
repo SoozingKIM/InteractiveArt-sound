@@ -1,9 +1,9 @@
-import './CharacterButton.css';
+import './MyCharacterButton.css';
 import React, { useState } from 'react';
 import { IoChevronUp } from 'react-icons/io5';
-import NewCharacter from '../character/NewCharacter';
+import MyCharacter from './MyCharacter';
 
-const CharacterButton=()=>{
+const MyCharacterButton=()=>{
 
     const [ show, setShow ] = useState(false);
 
@@ -30,7 +30,7 @@ const CharacterButton=()=>{
                         내 캐릭터 생성
                         <div className="new-part"></div>
                     </div>
-                    <NewCharacter/>
+                    <MyCharacter/>
                     <div className="new-bottom">
                         <button className="new-complete"
                                 onClick={handleModalClose}>
@@ -50,4 +50,4 @@ const CharacterButton=()=>{
       )
 }
 
-export default CharacterButton;
+export default MyCharacterButton;

@@ -1,4 +1,4 @@
-import TeamInfo from "../teamInfo/TeamInfo";
+import TeamInfo from './TeamInfo';
 import React, { useState } from 'react';
 import { IoChevronUp } from 'react-icons/io5';
 import './TeamInfoButton.css'

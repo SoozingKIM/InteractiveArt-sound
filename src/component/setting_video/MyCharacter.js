@@ -1,7 +1,7 @@
-import './NewCharacter.css'
-import CharSettingButton from '../button/CharSettingButton';
-
-const NewCharacter=()=>{
+import './MyCharacter.css'
+import CharSettingButton from './character/CharSettingButton';
+import BackSettingButton from './background/BackSettingButton';
+const MyCharacter=()=>{
     return(
         <>
             <div className="new-container">
@@ -10,10 +10,10 @@ const NewCharacter=()=>{
                 </input>
                 <div className="preview"></div>
                 <CharSettingButton/>
-                <button className="setting-button background">가상배경 설정</button>
+                <BackSettingButton/>
             </div>
         </>
     )
 }
 
-export default NewCharacter;
+export default MyCharacter;

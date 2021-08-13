@@ -1,6 +1,6 @@
 import './CharSettingButton.css';
 import React, { useState } from 'react';
-import CharSetting from '../character/CharSetting';
+import CharSetting from './CharSetting';
 
 const CharSettingButton=()=>{
 

@@ -1,0 +1,26 @@
+.category{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+}
+
+.category-clicked{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 10px;
+    color:black;
+    background-color: rgb(47, 112, 253);
+}
+.category-image{
+    width:22px;
+    height: 22px;
+    border: solid;
+    border-width: 1px;
+    margin-right: 10px;
+}
